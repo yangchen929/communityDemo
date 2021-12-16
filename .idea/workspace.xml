@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="communityDemo:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="850af76b-bdfe-41a0-8499-c89de5122d2c" name="Default Changelist" comment="">
+    <list default="true" id="f9d4c61f-7954-4c40-a25e-d5dcec7c1dd9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/dao/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/dao/factory/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/dao/factory/DaoFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,13 +18,12 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
-    <option name="PARALLEL_COMPILATION" value="true" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -27,58 +31,303 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="22M67I9cXO3uyTUrxuKMexaSGcs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="225UN6EPp9UfDQe5RbOVbJgXvbE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/company/dao/util" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\QF\Week9\communityDemo\web\WEB-INF" />
-      <recent name="D:\QF\Week9\communityDemo\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\QF\Week9\communityDemo\src\com\company\dao" />
-      <recent name="D:\QF\Week9\communityDemo\web" />
-      <recent name="D:\QF\Week9\communityDemo\src" />
+      <recent name="D:\IdeaProjects\communityDemo\src\com\company\dao\enpity" />
+      <recent name="D:\IdeaProjects\House\src\com\company\comm" />
+      <recent name="D:\IdeaProjects\House\web\WEB-INF\lib" />
+      <recent name="D:\IdeaProjects\House\web" />
+      <recent name="D:\IdeaProjects\House\src\com\company\controller" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.controller.filter" />
+      <recent name="com.company.controller" />
+      <recent name="com.company.dao.util" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.company.service.impl" />
+      <recent name="com.company.service.iservice" />
+      <recent name="com.company.dao.impl" />
+      <recent name="com.company.dao.factory" />
+      <recent name="com.company.dao.idao" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestAll.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="House" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.test" />
+      <option name="MAIN_CLASS_NAME" value="com.company.test.TestAll" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAll.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="House" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.test" />
+      <option name="MAIN_CLASS_NAME" value="com.company.test.TestAll" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TestAll.test01" />
+      <item itemvalue="JUnit.TestAll.test02" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestAll.test02" />
+        <item itemvalue="JUnit.TestAll.test01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="850af76b-bdfe-41a0-8499-c89de5122d2c" name="Default Changelist" comment="" />
-      <created>1639634939488</created>
+      <changelist id="f9d4c61f-7954-4c40-a25e-d5dcec7c1dd9" name="Default Changelist" comment="" />
+      <created>1639126898227</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1639634939488</updated>
-      <workItem from="1639634942227" duration="611000" />
-      <workItem from="1639635583613" duration="4550000" />
+      <updated>1639126898227</updated>
+      <workItem from="1639126901186" duration="1791000" />
+      <workItem from="1639392890688" duration="9844000" />
+      <workItem from="1639441224138" duration="5735000" />
+      <workItem from="1639471846148" duration="11923000" />
+      <workItem from="1639530288885" duration="1011000" />
+      <workItem from="1639536652601" duration="11947000" />
+      <workItem from="1639565726625" duration="1287000" />
+      <workItem from="1639614721568" duration="4063000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:D:/IdeaProjects/communityDemo/src/com/company/dao/util" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src/communityDemo" />
+      <path value="$PROJECT_DIR$/communityDemo" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="17" key="CommitChangelistDialog2" timestamp="1639640817285">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="452" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1639551855599">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="17" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1639640817285" />
-    <state x="575" y="145" key="search.everywhere.popup" timestamp="1639636767472">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="452" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1639551855599" />
+    <state x="1382" y="389" key="#com.intellij.ide.util.MemberChooser" timestamp="1639644045476">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="575" y="145" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1639636767472" />
+    <state x="1382" y="389" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1639644045476" />
+    <state x="677" y="507" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1639402068187">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="677" y="507" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1639402068187" />
+    <state x="790" y="444" width="441" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1639551867650">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="444" width="441" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1639551867650" />
+    <state x="10" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1639448861991">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="10" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1639448861991" />
+    <state x="1188" y="455" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1639402010673">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1188" y="455" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1639402010673" />
+    <state x="560" y="110" key="CommitChangelistDialog2" timestamp="1639644422711">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="560" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1639644422711" />
+    <state width="1293" height="282" key="GridCell.Tab.0.bottom" timestamp="1639644916138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1639644916138" />
+    <state width="1293" height="282" key="GridCell.Tab.0.center" timestamp="1639644916138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1639644916138" />
+    <state width="1293" height="282" key="GridCell.Tab.0.left" timestamp="1639644916138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1639644916138" />
+    <state width="1293" height="282" key="GridCell.Tab.0.right" timestamp="1639644916138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1639644916138" />
+    <state width="1293" height="282" key="GridCell.Tab.1.bottom" timestamp="1639644916138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1639644916138" />
+    <state width="1293" height="282" key="GridCell.Tab.1.center" timestamp="1639644916138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1639644916138" />
+    <state width="1293" height="282" key="GridCell.Tab.1.left" timestamp="1639644916138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1639644916138" />
+    <state width="1293" height="282" key="GridCell.Tab.1.right" timestamp="1639644916138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1639644916138" />
+    <state width="1293" height="282" key="GridCell.Tab.2.bottom" timestamp="1639644916138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1639644916138" />
+    <state width="1293" height="282" key="GridCell.Tab.2.center" timestamp="1639644916138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1639644916138" />
+    <state width="1293" height="282" key="GridCell.Tab.2.left" timestamp="1639644916138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1639644916138" />
+    <state width="1293" height="282" key="GridCell.Tab.2.right" timestamp="1639644916138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1639644916138" />
+    <state width="1281" height="280" key="GridCell.Tab.3.bottom" timestamp="1639472790201">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1281" height="280" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1639472790201" />
+    <state width="1281" height="280" key="GridCell.Tab.3.center" timestamp="1639472790201">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1281" height="280" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1639472790201" />
+    <state width="1281" height="280" key="GridCell.Tab.3.left" timestamp="1639472790201">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1281" height="280" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1639472790201" />
+    <state width="1281" height="280" key="GridCell.Tab.3.right" timestamp="1639472790201">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1281" height="280" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1639472790201" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1639644820932">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1639644820932" />
+    <state x="640" y="427" key="com.intellij.ide.util.TipDialog" timestamp="1639614722297">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="427" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1639614722297" />
+    <state x="658" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1639400588851">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="658" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1639400588851" />
+    <state x="404" y="172" key="new project wizard" timestamp="1639639839955">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="404" y="172" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1639639839955" />
+    <state x="1404" y="294" key="refactoring.ChangeSignatureDialog" timestamp="1639402524174">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1404" y="294" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1639402524174" />
+    <state x="934" y="699" width="672" height="676" key="search.everywhere.popup" timestamp="1639398399234">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="934" y="699" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1639398399234" />
   </component>
 </project>
